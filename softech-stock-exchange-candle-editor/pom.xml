@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>pl.softech</groupId>
+        <artifactId>softech-gpw-stock-exchange</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>pl.softech</groupId>
+    <artifactId>softech-stock-exchange-candle-editor</artifactId>
+    <version>1.0</version>
+    <name>softech-stock-exchange-candle-editor</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+            
+        <dependency>
+            <groupId>pl.softech</groupId>
+            <artifactId>softech-commons</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>pl.softech</groupId>
+            <artifactId>softech-stock-exchange-model</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>pl.softech</groupId>
+            <artifactId>softech-swing-core</artifactId>
+        </dependency>
+        
+    </dependencies>
+</project>

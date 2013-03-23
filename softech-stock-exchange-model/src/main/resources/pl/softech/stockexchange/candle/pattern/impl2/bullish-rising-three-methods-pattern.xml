@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<candlestick-pattern bar-count="5" direction="BULLISH" reliability="STRONG" type="CONTINUATION">
+    <candlestick bounds.height="383" bounds.width="60" bounds.x="123" bounds.y="66" close="139.11578" high="153.11578" low="35.326317" open="51.221054"/>
+    <candlestick bounds.height="108" bounds.width="60" bounds.x="202" bounds.y="91" close="116.70007" high="142.80536" low="111.85797" open="136.70009"/>
+    <candlestick bounds.height="114" bounds.width="60" bounds.x="276" bounds.y="144" close="98.70008" high="127.015884" low="94.17377" open="118.70008"/>
+    <candlestick bounds.height="119" bounds.width="60" bounds.x="353" bounds.y="218" close="80.70004" high="104.59475" low="70.173645" open="100.700035"/>
+    <candlestick bounds.height="315" bounds.width="60" bounds.x="446" bounds.y="26" close="154.28961" high="164.81592" low="68.50002" open="79.02639"/>
+</candlestick-pattern>

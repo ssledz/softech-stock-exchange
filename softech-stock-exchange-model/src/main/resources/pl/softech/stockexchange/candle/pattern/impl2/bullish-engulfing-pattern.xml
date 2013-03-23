@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<candlestick-pattern bar-count="2" direction="BULLISH" reliability="MODERATE" type="REVERSAL">
+    <candlestick bounds.height="163" bounds.width="60" bounds.x="249" bounds.y="161" close="82.07375" high="122.07375" low="73.75795" open="114.38955"/>
+    <candlestick bounds.height="320" bounds.width="60" bounds.x="332" bounds.y="88" close="136.40002" high="146.29475" low="48.399994" open="57.347336"/>
+</candlestick-pattern>
