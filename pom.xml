@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.softech</groupId>
     <artifactId>softech-stock-exchange</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>softech-stock-exchange</name>
   
@@ -31,13 +31,13 @@
             <dependency>
                 <groupId>pl.softech</groupId>
                 <artifactId>softech-stock-exchange-model</artifactId>
-                <version>1.0</version>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
             
             <dependency>
                 <groupId>pl.softech</groupId>
                 <artifactId>softech-stock-exchange-candle-editor</artifactId>
-                <version>1.0</version>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
             
             
@@ -67,6 +67,43 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
+        </plugins>
+        
     </build>
+    
+    <scm>
+        <connection>scm:git:git@github.com:ssledz/softech-stock-exchange.git</connection>
+        <url>scm:git:git@github.com:ssledz/softech-stock-exchange.git</url>
+        <developerConnection>scm:git:git@github.com:ssledz/softech-stock-exchange.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <name>Internal Repository</name>
+            <url>${internal.repo.path}</url>
+        </repository>
+        
+        <snapshotRepository>
+            <id>repo</id>
+            <name>Internal Repository</name>
+            <url>${internal.repo.path}</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
+    <repositories>
+        <repository>
+            <id>mvn.repo</id>
+            <url>https://github.com/ssledz/mvn-repo/raw/master</url>
+        </repository>
+    </repositories>
     
 </project>
