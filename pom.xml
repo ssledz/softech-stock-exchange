@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.softech</groupId>
     <artifactId>softech-stock-exchange</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <name>softech-stock-exchange</name>
   
@@ -31,13 +31,13 @@
             <dependency>
                 <groupId>pl.softech</groupId>
                 <artifactId>softech-stock-exchange-model</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>1.0</version>
             </dependency>
             
             <dependency>
                 <groupId>pl.softech</groupId>
                 <artifactId>softech-stock-exchange-candle-editor</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>1.0</version>
             </dependency>
             
             
@@ -82,7 +82,7 @@
         <connection>scm:git:git@github.com:ssledz/softech-stock-exchange.git</connection>
         <url>scm:git:git@github.com:ssledz/softech-stock-exchange.git</url>
         <developerConnection>scm:git:git@github.com:ssledz/softech-stock-exchange.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>softech-stock-exchange-1.0</tag>
     </scm>
     
     <distributionManagement>
