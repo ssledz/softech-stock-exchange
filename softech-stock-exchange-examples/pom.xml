@@ -4,11 +4,11 @@
     <parent>
         <groupId>pl.softech</groupId>
         <artifactId>softech-stock-exchange</artifactId>
-        <version>1.0</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
     <groupId>pl.softech</groupId>
     <artifactId>softech-stock-exchange-examples</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>softech-stock-exchange-examples</name>
     <url>http://maven.apache.org</url>
     <properties>
