@@ -59,6 +59,11 @@ public class XmlDefinitionLoader {
         return this;
 
     }
+    
+    public XmlDefinitionLoader load(InputStream in) throws Exception {
+        loadXml(in);
+        return this;
+    }
 
     public Candle[] getCandles() {
         return candles;

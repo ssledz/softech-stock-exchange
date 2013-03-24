@@ -15,7 +15,6 @@
  */
 package pl.softech.stockexchange.candle.pattern.impl2;
 
-import java.io.File;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -78,10 +77,8 @@ public class XmlCandlePattern implements ICandlePattern {
         XmlCandlePattern pattern = null;
 
         try {
-
-            File file = new File(XmlCandlePattern.class.getResource(fileName).getFile());
             XmlDefinitionLoader loader = new XmlDefinitionLoader();
-            loader.load(file);
+            loader.load(XmlCandlePattern.class.getResourceAsStream(fileName));
             pattern = new XmlCandlePattern(loader.getMetaData(), loader.getCandles());
         } catch (Exception e) {
             e.printStackTrace();

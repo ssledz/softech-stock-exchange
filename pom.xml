@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.softech</groupId>
-    <artifactId>softech-gpw-stock-exchange</artifactId>
+    <artifactId>softech-stock-exchange</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
     <name>softech-stock-exchange</name>
@@ -10,6 +10,7 @@
     <modules>
         <module>softech-stock-exchange-model</module>
         <module>softech-stock-exchange-candle-editor</module>
+        <module>softech-stock-exchange-examples</module>
     </modules>
     
     <dependencyManagement>
@@ -33,7 +34,7 @@
                 <version>1.0</version>
             </dependency>
             
-             <dependency>
+            <dependency>
                 <groupId>pl.softech</groupId>
                 <artifactId>softech-stock-exchange-candle-editor</artifactId>
                 <version>1.0</version>
