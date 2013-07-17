@@ -70,6 +70,10 @@ public class Adx {
         return tr;
     }
 
+    /**
+     * @param weight a parameter for ema average
+     * @param n number of periods that was taken into consideration
+     */
     public double[] count(double[] low, double[] high, double[] close, final double weight, final int n) {
 
         return count(low, high, close, new Function() {
